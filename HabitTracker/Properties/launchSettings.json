@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "HabitTracker": {
+      "commandName": "Project",
+      "workingDirectory": "C:\\Users\\lylep\\source\\repos\\HabitTracker\\HabitTracker"
+    }
+  }
+}
