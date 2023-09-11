@@ -12,8 +12,7 @@ namespace HabitTracker
     internal class Actions
     {
         private string connectionString = "Data Source=habit-Tracker.db";
- 
-
+        
         public void Update(string habit)
         {
             Console.Clear();
@@ -37,11 +36,7 @@ namespace HabitTracker
                 tableCmd.ExecuteNonQuery();
                 connection.Close();
             }
-
         }
-
-
-
 
         public void Report(string habit, string unit)
         {
@@ -68,8 +63,6 @@ namespace HabitTracker
                     string myReader2 = reader.GetString(0);
                     int MyReader1 = Convert.ToInt32(double.Parse(myReader1));
                     
-                    //Come up with better names later
-
                     Console.Write($"\nTotal number of times {habit} has been done in {year}:{myReader} times\n");
                     Console.Write($"Average number of {unit} of {habit} has been done in {year}:{MyReader1} {unit}\n");
                     Console.WriteLine($"Total number of {unit} of {habit} done in {year}: {myReader2} {unit}");
@@ -77,8 +70,6 @@ namespace HabitTracker
 
                 connection.Close();
             }
-
-        }
-      
+        } 
     }
 }
