@@ -21,3 +21,14 @@ All requirements and challenges met.
 - [X] Create a report functionality where the users can view specific information (i.e. how many times the user ran in a year? how many kms?) SQL allows you to ask very interesting things from your database.
 
 ## ✨ Features:
+The user can choose a specific habit and the unit of measurement used for said habit.
+- ![habit1](https://github.com/Squing0/HabitTrackerCSharp/assets/119138371/455eabf4-7115-4dc3-9ba5-600767dd642c)
+
+User has multiple menu options to add, delete, update entries.
+- ![Menu](https://github.com/Squing0/HabitTrackerCSharp/assets/119138371/fe6b84e3-f67d-4f89-97e8-9332e9f0c2b7)
+
+They can also view all recorded entries.
+- ![hh](https://github.com/Squing0/HabitTrackerCSharp/assets/119138371/5b8ecbbe-983a-46a9-9884-5684563563a6)
+
+They can also get a report of entries for a specific year.
+- ![aver](https://github.com/Squing0/HabitTrackerCSharp/assets/119138371/e811e602-a8bf-435b-a3e2-7fb75bc1099c)
